@@ -1,0 +1,118 @@
+body {
+  background-color: rgba(236, 236, 246, 0.964);
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.556);
+}
+img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+  border: 3px solid #ffffff;
+  padding: 4px;
+  transition-delay: 0.5;
+}
+img:hover {
+  transform: rotateY(180deg);
+
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+input {
+  margin-left: 20px;
+  padding: 2px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid rgb(2, 6, 60);
+  background-color: transparent;
+  outline: none;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: -300px;
+  margin-left: 250px;
+  margin-top: 80px;
+}
+.red {
+  border-color: red;
+}
+.container .one {
+  background-color: rgb(2, 6, 60);
+  display: block;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-top: 30px;
+  width: 350px;
+  height: 450px;
+  margin-top: 25px;
+  line-height: 25px;
+  position: relative;
+  transition-duration: 0.5s;
+  border: 3px solid aqua;
+}
+.one:hover {
+  transform: scale(1.1, 1.1);
+
+  box-shadow: 0 0 8px 3px rgba(5, 168, 250, 0.8),
+    0 0 8px 3px rgba(5, 168, 250, 0.8), 0 0 8px 3px rgba(5, 168, 250, 0.8);
+}
+.one .pro {
+  background-color: greenyellow;
+  border: 2px solid white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  color: black;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+.one .pro1 {
+  background-color: red;
+  border: 2px solid white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  color: black;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+button {
+  background-color: rgb(1, 221, 221);
+
+  border: none;
+  padding: 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.btn1 {
+  background-color: transparent;
+  border: 2px solid rgb(1, 221, 221);
+  color: aliceblue;
+}
+.btn1:hover {
+  background-color: rgb(1, 221, 221);
+  box-shadow: 10px;
+
+  color: black;
+}
+.one ul li {
+  list-style-type: none;
+  border: 2px solid white;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.unclick {
+  cursor: not-allowed;
+  background-color: rgba(0, 255, 255, 0.532);
+}
